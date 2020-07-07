@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc.memory.leak", "poc.memory.leak\poc.memory.leak.csproj", "{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc.memory.leak.ioc", "poc.memory.leak.ioc\poc.memory.leak.ioc.csproj", "{C0BBBB30-BAB9-4993-9841-B92C256A0542}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc.memory.leak.repository", "poc.memory.leak.repository\poc.memory.leak.repository.csproj", "{4794406E-E6A0-4854-BB1F-05B3C957BC55}"
@@ -13,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc.memory.leak.interfaces"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc.memory.leak.services", "poc.memory.leak.services\poc.memory.leak.services.csproj", "{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc_memory_leak_fractal_2.2", "poc_memory_leak_fractal_2.2\poc_memory_leak_fractal_2.2.csproj", "{41770F9C-913F-4190-8633-3F46BEA955B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poc_memory_leak_fractal_2.2", "poc_memory_leak_fractal_2.2\poc_memory_leak_fractal_2.2.csproj", "{41770F9C-913F-4190-8633-3F46BEA955B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Release|Any CPU.ActiveCfg = Release|Any CPU
