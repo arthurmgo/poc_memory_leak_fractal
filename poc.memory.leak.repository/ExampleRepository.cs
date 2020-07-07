@@ -13,7 +13,7 @@ namespace poc.memory.leak.repository
     {
 
         private readonly IConfiguration _configuration;
-        private IBucket bucket;
+        private static IBucket bucket;
         
         public ExampleRepository(IConfiguration configuration)
         {

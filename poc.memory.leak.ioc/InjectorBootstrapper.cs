@@ -10,7 +10,7 @@ namespace poc.memory.leak.ioc
     {
         public static void ConfigureDependencyInjection(this IServiceCollection services)
         {
-            services.AddScoped<IExampleRepository, ExampleRepository>();
+            services.AddSingleton<IExampleRepository, ExampleRepository>();
             services.AddScoped<IExampleService, ExampleService>();
         }
     }
