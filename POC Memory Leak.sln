@@ -1,6 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC Memory Leak", "POC Memory Leak\POC Memory Leak.csproj", "{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.memory.leak", "poc.memory.leak\poc.memory.leak.csproj", "{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.memory.leak.ioc", "poc.memory.leak.ioc\poc.memory.leak.ioc.csproj", "{C0BBBB30-BAB9-4993-9841-B92C256A0542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.memory.leak.repository", "poc.memory.leak.repository\poc.memory.leak.repository.csproj", "{4794406E-E6A0-4854-BB1F-05B3C957BC55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.memory.leak.interfaces", "poc.memory.leak.interfaces\poc.memory.leak.interfaces.csproj", "{6B052975-A688-4A25-9EC1-5163D0DE733A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.memory.leak.services", "poc.memory.leak.services\poc.memory.leak.services.csproj", "{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +20,21 @@ Global
 		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0ECFBF4-9F35-40F5-8AFD-95895830D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BBBB30-BAB9-4993-9841-B92C256A0542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4794406E-E6A0-4854-BB1F-05B3C957BC55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4794406E-E6A0-4854-BB1F-05B3C957BC55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4794406E-E6A0-4854-BB1F-05B3C957BC55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4794406E-E6A0-4854-BB1F-05B3C957BC55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B052975-A688-4A25-9EC1-5163D0DE733A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B052975-A688-4A25-9EC1-5163D0DE733A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B052975-A688-4A25-9EC1-5163D0DE733A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B052975-A688-4A25-9EC1-5163D0DE733A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07896DBA-969F-4F18-A3F9-AAA7B71FD7E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

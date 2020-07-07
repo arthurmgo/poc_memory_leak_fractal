@@ -8,9 +8,4 @@
       <ProjectReference Include="..\poc.memory.leak.interfaces\poc.memory.leak.interfaces.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="CouchbaseNetClient" Version="2.7.18" />
-      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
-    </ItemGroup>
-
 </Project>

@@ -1,7 +1,7 @@
 ﻿namespace poc.memory.leak.interfaces.Services
 {
-    public interface IServiceRepository
+    public interface IExampleService
     {
-        
+        public object GetItem(string item);
     }
 }

@@ -2,8 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-        <RootNamespace>POC_Memory_Leak</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\poc.memory.leak.ioc\poc.memory.leak.ioc.csproj" />
+    </ItemGroup>
 
 
 </Project>
