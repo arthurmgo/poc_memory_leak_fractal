@@ -2,6 +2,6 @@
 {
     public interface IExampleService
     {
-        public object GetItem(string item);
+        object GetItem(string item);
     }
 }

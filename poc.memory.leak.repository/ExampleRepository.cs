@@ -13,7 +13,7 @@ namespace poc.memory.leak.repository
     {
 
         private readonly IConfiguration _configuration;
-        private static IBucket bucket;
+        private IBucket bucket;
         
         public ExampleRepository(IConfiguration configuration)
         {
@@ -55,7 +55,7 @@ namespace poc.memory.leak.repository
 
             var myBucket = GetBucketInstance();
 
-            var response = bucket.GetDocument<IEnumerable<string>>(item);
+            var response = myBucket.GetDocument<object>(item);
 
             return response.Success ? response.Document.Content : null;
         }

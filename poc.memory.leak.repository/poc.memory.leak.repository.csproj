@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+      <TargetFramework>netcoreapp2.2</TargetFramework>
+      <ServerGarbageCollection>false</ServerGarbageCollection>
     </PropertyGroup>
 
     <ItemGroup>
@@ -10,7 +11,7 @@
 
     <ItemGroup>
       <PackageReference Include="CouchbaseNetClient" Version="2.7.18" />
-      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.5" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.2.0" />
     </ItemGroup>
 
 </Project>
